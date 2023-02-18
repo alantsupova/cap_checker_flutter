@@ -18,7 +18,7 @@ class _HomePageState extends State<HomePage> {
   List _prediction = [];
 
   @override
-  void initState() async {
+  void initState()  {
     super.initState();
     loadmodel();
   }
